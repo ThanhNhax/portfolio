@@ -15,6 +15,9 @@
 </head>
 
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
     <header class="header">
         <div class="container">
             <div class="header-logo">
@@ -23,7 +26,7 @@
             <nav class="menu">
                 <ul>
 
-                    <li class="menu-item"><a href="#home">Home</a></li>
+                    <li class="menu-item"><a href="#carousel">Home</a></li>
                     <li class="menu-item"><a href="#about">About</a></li>
                     <li class="menu-item"><a href="#services">Services</a></li>
                     <li class="menu-item"><a href="#skills">Skills</a></li>
@@ -39,14 +42,14 @@
             <div class="carousel-content">
                 <h3>Hello, my name is</h3>
                 <h3>Thanh Nha</h3>
-                <h3>And I'm a Front-end Developer</h3>
+                <h3>And I'm a <span class="typing"></span></h3>
             </div>
             <a href="#contact">Hire me</a>
         </div>
     </section>
 
     <!-- About -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about-title">
                 <h2 class="title">About</h2>
@@ -55,7 +58,7 @@
                 <div class="content-img">
                     <img src="./img/avatar.jpg" alt="avatar">
                 </div>
-                <h2> I'm Thanh Nha and I'm a Front-end Developer</h2>
+                <h2> I'm Thanh Nha and I'm a <span class="typing-about"></span></h2>
                 <p>I am a web developer, with 6 months of experience working as a Frontend developer. I used to work
                     with sales pages, management pages. My strong point is responsibility at work. I always try to do
                     the best job I can. I am a logical thinker, curious and eager to learn.</p>
@@ -65,7 +68,7 @@
         </div>
     </section>
     <!-- services -->
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="services-title">
                 <h2 class="title">My services</h2>
@@ -81,7 +84,7 @@
         </div>
     </section>
     <!-- skills -->
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
             <div class="skills-title">
                 <h2 class="title">My skills</h2>
@@ -151,6 +154,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
         integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
